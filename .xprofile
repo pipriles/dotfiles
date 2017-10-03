@@ -1,0 +1,13 @@
+# Set urxvt as default terminal (i3)
+export TERMINAL="urxvt"
+
+# gnome-terminal
+eval `dbus-launch --sh-syntax`
+
+# Set background image
+sh ~/.fehbg &
+
+xrdb ~/.Xresources
+
+# Swap Caps with Escape
+setxkbmap -option "caps:swapescape"
