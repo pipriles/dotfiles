@@ -207,5 +207,6 @@ bindsym Shift+Print exec --no-startup-id maim -s | xclip -selection clipboard -t
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 exec --no-startup-id compton -b
+exec --no-startup-id conky -b
 exec --no-startup-id nm-applet
 
